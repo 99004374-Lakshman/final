@@ -20,4 +20,4 @@ jobs:
     - name: make test
       run: |
         make test 
-        valgrind ./Test_Cal.out
+        valgrind ./Test_cal.out
