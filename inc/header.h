@@ -2,9 +2,9 @@
 #define __HEADER_H__
 
 
-
+#include<stdio.h>
 
 int add(int a,int b);
-int sub(int x,inty);
+int sub(int x,int y);
 
 #endif

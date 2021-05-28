@@ -18,10 +18,11 @@ int main()
         }
         case 2:
         {
-        int x,y;
+        int x,y,w;
         printf("enter and b\n");
         scanf("%d%d",&x,&y);
-        int sub(x,y);
+        w=sub(x,y);
+        printf("%d",w);
         break;
         }
         default:

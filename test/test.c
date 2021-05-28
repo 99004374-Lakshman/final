@@ -1,7 +1,7 @@
 #include "unity_internals.h"
 #include "unity.h"
 #include "header.h"
-void add(void);
+void test_add(void);
 void setUp(){}
 void tearDown(){}
 /*Test for login password*/
@@ -9,11 +9,11 @@ void tearDown(){}
 int main()
 {
 	UNITY_BEGIN();
-	RUN_TEST(add);
+	RUN_TEST(test_add);
 	return UNITY_END();
 }
 
-void add(void)
+void test_add(void)
 {
     
     TEST_ASSERT_EQUAL(10,add(5,5));
